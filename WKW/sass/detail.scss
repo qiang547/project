@@ -1,0 +1,186 @@
+@import "../css/public.css";
+
+$c:#cacaca;
+$r:red;
+.margin{margin: 0 auto;width:1200px;}
+h5{
+    a{color:$c;}
+    #te{color:$r;}
+    height:50px;
+    font:12px /50px "";
+}
+main{
+    display:flex;
+    aside{
+        width:180px;
+        dl{
+            border:1px solid #666;
+            text-indent: 1em;
+            font:12px/30px "";
+            dt{
+                border-bottom: 2px solid #B9363C;
+                font-weight: 800;
+                p.tep{background:white}
+            }
+            dd{
+                border-bottom: 1px solid #cacaca;
+                p{background:#E9ECEF}
+                ul{
+                    display:none;
+                    li{
+                        width:178px;
+                        height:30px;
+                        background:#fff;
+                        border:{
+                            bottom: 1px solid #ccc;
+                            right: 1px solid #ccc;
+                        }
+                        font:12px/30px "";
+                        color:#4C4C4C;
+                        text-indent: 3em;
+                    
+                        a{
+                             &:hover{
+                                 color:$r
+                             }   
+                        }
+                    }
+                }
+            }            
+            
+        }
+        
+        img.baok{  
+            width:178px;
+            height:178px;
+            border: 1px solid #E9ECEF;
+            margin: {
+                top:10px;
+                bottom: 10px;
+            }
+        }
+        
+        .advice{
+            border:1px solid #ccc;
+            h6{
+                text-indent: 1em;
+                height:30px;font:14px / 30px "";
+                a{font:800 12px/30px "";color:$r+30;}    
+            }
+            ul{
+               li{
+                   border-top: 1px solid #ccc;
+                   height:110px;
+                   display: flex;
+                   img{
+                       margin:{
+                           left:20px;
+                           top:20px
+                       }
+                       width:60px;
+                       height:60px;
+                   }
+                   .box{
+                        margin:{
+                           left:10px;
+                           top:20px
+                       }
+                       p{width:80px;}
+                       span,b{display: block;} 
+                       span{color:$r;}
+                       b{text-decoration:line-through}                           
+                   }
+                   
+               } 
+            }
+        }
+    }
+    
+    article{
+        margin-left: 10px;
+        width:1010px;
+        .art-t{
+            display: flex;
+            .art-t-r{
+                h5{font: 700 12px/32px "";}
+                margin-left: 20px;
+                .shuoming{
+                    font:12px/22px "";
+                    border-bottom: 1px dashed #ccc;
+                    margin-bottom: 10px;
+                    color:dodgerblue
+                }
+                .price{
+                    font:12px/40px "";
+                    span{
+                        text-decoration: line-through;
+                    }
+                    margin-bottom: 10px;
+                    height:40px;
+                    border:{
+                            top:1px dashed #ccc;
+                            bottom:1px dashed #ccc;   
+                    }
+                }
+                .dengji{
+                    height:40px;
+                    font:12px/40px "";
+                    border:{
+                            top:1px dashed #ccc;
+                            bottom:1px dashed #ccc;   
+                    }
+                }
+            }
+        }
+        .art-c{
+            img{
+                width:47px;
+                height:47px;
+                margin:{
+                    top:10px;
+                    right:10px;
+                }
+            }
+            .smalltu{
+                width:380px;
+                text-align: center;
+            }
+            .xiangqin{
+                font:14px/30px "";
+                height:30px;
+                background:#E9ECEF;
+                a{
+                    display: inline-block;
+                    width:80px;
+                    height:30px;
+                    text-align: center;
+                    border-right:1px solid #491217;
+                }
+                border:1px solid #ccc;
+                margin:{
+                    top:14px;
+                    bottom: 20px;
+                }
+            }
+        }
+        .art-b{
+            text-align: center;
+            p{
+                font:14px/40px "";
+                text-align: left;
+                text-indent: 2em;
+            }
+        }
+    }
+}
+.totop{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background:black;
+    position: fixed;
+    bottom: 100px;right:15px;width:50px;height:50px;
+    text-align: center;font: 800 15px/50px "";
+    color:#fff;
+}
+

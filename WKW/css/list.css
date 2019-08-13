@@ -1,0 +1,181 @@
+@import url(../css/public.css);
+@charset "utf-8";
+
+.margin {
+  margin: 0 auto;
+  width: 1200px; }
+
+h5#super {
+  height: 50px;
+  font: 14px /50px ""; 
+  	margin: 0 auto;
+  	width:1200px;}
+  h5#super a {
+    color: #cacaca; }
+  h5#super #te {
+    color: #000; }
+
+main {
+  display: flex; }
+  main aside {
+    width: 180px; }
+    main aside dl {
+      border: 1px solid #666;
+      text-indent: 1em;
+      font: 12px/30px ""; }
+      main aside dl dt {
+        border-bottom: 2px solid #B9363C;
+        font-weight: 800; }
+        main aside dl dt p.tep {
+          background: white; }
+      main aside dl dd {
+        border-bottom: 1px solid #cacaca; }
+        main aside dl dd p {
+          background: #E9ECEF; }
+        main aside dl dd ul {
+          display: none; }
+          main aside dl dd ul li {
+            width: 178px;
+            height: 30px;
+            background: #fff;
+            border-bottom: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            font: 12px/30px "";
+            color: #4C4C4C;
+            text-indent: 3em; }
+            main aside dl dd ul li a:hover {
+              color: red; }
+    main aside img.baok {
+      width: 178px;
+      height: 178px;
+      border: 1px solid #E9ECEF;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    main aside .advice {
+      border: 1px solid #ccc; }
+      main aside .advice h6 {
+        text-indent: 1em;
+        height: 30px;
+        font: 14px / 30px ""; }
+        main aside .advice h6 a {
+          font: 800 12px/30px "";
+          color: #ff1e1e; }
+      main aside .advice ul li {
+        border-top: 1px solid #ccc;
+        height: 110px;
+        display: flex; }
+        main aside .advice ul li img {
+          margin-left: 20px;
+          margin-top: 20px;
+          width: 60px;
+          height: 60px; }
+        main aside .advice ul li .box {
+          margin-left: 10px;
+          margin-top: 20px; }
+          main aside .advice ul li .box p {
+            width: 80px; }
+          main aside .advice ul li .box span, main aside .advice ul li .box b {
+            display: block; }
+          main aside .advice ul li .box span {
+            color: red; }
+          main aside .advice ul li .box b {
+            text-decoration: line-through; }
+ 
+
+.totop {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: black;
+  position: fixed;
+  bottom: 100px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font: 800 15px/50px "";
+  color: #fff; }
+
+h5#spuer{width:1200px;margin:0 auto;}
+article{margin-left: 20px;width:998px;}
+article img.tou{width:100%;height:70px;border: 1px solid #ccc;margin-bottom: 10px;}
+article .brand{height:40px;font:12px/40px "";border: 1px solid #ccc;text-indent: 1em;margin-bottom: 10px;}
+article .brand a{color:#ccc;} 
+article .brand a:hover{color:red;} 
+article .brand span{font:700 12px/40px "";}
+
+article p.state{height:40px;border: 1px solid #ccc;font:12px/40px "";text-indent: 1em;margin-bottom: 10px;}
+
+article .show{display: flex;justify-content: space-between;background:#ECECF6;
+height:40px;font:12px/40px "";text-indent: 1em;margin-bottom: 10px;
+}
+article .show select{background: #ECECF6;border:0;}
+
+article ul{display: flex;flex-wrap: wrap;justify-content: space-between;}
+article ul li{width:235px;border: 1px solid #EEEEFF;height:339px;margin-bottom: 20px;}
+article ul li:hover{border-color:#A21F25}
+
+article ul li a.buy{display: block;text-align: center;}
+article ul li a.buy img{height:235px}
+article ul li a.buy p{width:80%;height:44px;font:12px/22px "";margin: 0 auto;text-align: left;}
+article ul li a.buy p:hover{color:red;}
+article ul li a.buy div{width:80%;height:30px;font:12px/30px "";margin: 0 auto;}
+article ul li a.buy i{color:red;}
+article ul li a.buy u{text-decoration: line-through;}
+article ul li span{font:14px/30px "";display: inline-block;text-align: center;
+background: #E9ECEF;width:80px;height:30px;border-radius: 5px;margin-left: 20px;
+}
+article ul li a.gou{font:14px/30px "";display: inline-block;text-align: center;
+background: #E9ECEF;width:80px;height:30px;border-radius: 5px;margin-left: 20px;
+}
+/*<div class="pagWarp" id="pageWarp">
+	<span id="btnL">上一页</span>
+	<div id="page">
+	</div>
+	<span id="btnR">下一页</span>
+</div>*/
+
+#pageWarp{
+	display: flex;
+	height:30px;
+	margin-bottom: 20px;
+}
+#pageWarp #btnL,#btnR{
+	width:100px;
+	height:30px;
+	border:1px solid #ccc;
+	border-radius:10px;
+	background:#000000;
+	color:#fff;
+	text-align: center;
+	font:14px/30px "" ;
+}
+#pageWarp #btnL{
+	margin-left: 300px;
+}
+#pageWarp #page{
+	display: flex;
+}
+#pageWarp #page li{
+	width:30px;
+	height:30px;
+	background:#000000;
+	border:1px solid #ccc;
+	border-radius:10px;
+	color:#fff;
+	text-align: center;
+	font:14px/30px "" ;
+}
+
+#footer{height:65px;background:#333;color:#fff;text-align: center;}
+#footer p{font: 12px/35px "";height:30px;}
+#footer .gang{width:800px;height:1px;background: #fff;margin: 0 auto}
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,226 @@
+@import url(../css/public.css);
+.margin {
+  margin: 0 auto;
+  width: 1200px; }
+
+h5{
+  height: 50px;
+  font: 14px /50px ""; 
+  	margin: 0 auto;
+  	width:1200px;}
+  h5 a {
+    color: #cacaca; }
+  h5 #te {
+    color: #000; }
+
+main {
+  display: flex; }
+  main aside {
+    width: 180px; }
+    main aside dl {
+      border: 1px solid #666;
+      text-indent: 1em;
+      font: 12px/30px ""; }
+      main aside dl dt {
+        border-bottom: 2px solid #B9363C;
+        font-weight: 800; }
+        main aside dl dt p.tep {
+          background: white; }
+      main aside dl dd {
+        border-bottom: 1px solid #cacaca; }
+        main aside dl dd p {
+          background: #E9ECEF; }
+        main aside dl dd ul {
+          display: none; }
+          main aside dl dd ul li {
+            width: 178px;
+            height: 30px;
+            background: #fff;
+            border-bottom: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            font: 12px/30px "";
+            color: #4C4C4C;
+            text-indent: 3em; }
+            main aside dl dd ul li a:hover {
+              color: red; }
+    main aside img.baok {
+      width: 178px;
+      height: 178px;
+      border: 1px solid #E9ECEF;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    main aside .advice {
+      border: 1px solid #ccc; }
+      main aside .advice h6 {
+        text-indent: 1em;
+        height: 30px;
+        font: 14px / 30px ""; }
+        main aside .advice h6 a {
+          font: 800 12px/30px "";
+          color: #ff1e1e; }
+      main aside .advice ul li {
+        border-top: 1px solid #ccc;
+        height: 110px;
+        display: flex; }
+        main aside .advice ul li img {
+          margin-left: 20px;
+          margin-top: 20px;
+          width: 60px;
+          height: 60px; }
+        main aside .advice ul li .box {
+          margin-left: 10px;
+          margin-top: 20px; }
+          main aside .advice ul li .box p {
+            width: 80px; }
+          main aside .advice ul li .box span, main aside .advice ul li .box b {
+            display: block; }
+          main aside .advice ul li .box span {
+            color: red; }
+          main aside .advice ul li .box b {
+            text-decoration: line-through; }
+  main article {
+    margin-left: 10px;
+    width: 1010px; }
+    main article .art-t {
+      display: flex;
+      height:300px; }
+      main article .art-t .art-t-r {
+        margin-left: 20px; }
+        main article .art-t .art-t-r h5 {
+          font: 700 12px/32px ""; }
+        main article .art-t .art-t-r .shuoming {
+          font: 12px/22px "";
+          border-bottom: 1px dashed #ccc;
+          margin-bottom: 10px;
+          color: dodgerblue; }
+        main article .art-t .art-t-r .price {
+          font: 12px/40px "";
+          margin-bottom: 10px;
+          height: 40px;
+          border-top: 1px dashed #ccc;
+          border-bottom: 1px dashed #ccc; }
+          main article .art-t .art-t-r .price span {
+            text-decoration: line-through; }
+        main article .art-t .art-t-r .dengji {
+          height: 40px;
+          font: 12px/40px "";
+          border-top: 1px dashed #ccc;
+          border-bottom: 1px dashed #ccc; }
+    main article .art-c img {
+      width: 47px;
+      height: 47px;
+      margin-top: 10px;
+      margin-right: 10px; }
+    main article .art-c .smalltu {
+      width: 300px;
+      text-align: center; }
+    main article .art-c .xiangqin {
+      font: 14px/30px "";
+      height: 30px;
+      background: #E9ECEF;
+      border: 1px solid #ccc;
+      margin-top: 14px;
+      margin-bottom: 20px; }
+      main article .art-c .xiangqin a {
+        display: inline-block;
+        width: 80px;
+        height: 30px;
+        text-align: center;
+        border-right: 1px solid #491217; }
+    main article .art-b {
+      text-align: center; 
+      display: block;}
+      main article .art-b p {
+        font: 14px/40px "";
+        text-align: left;
+        text-indent: 2em; }
+
+.totop {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: black;
+  position: fixed;
+  bottom: 100px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font: 800 15px/50px "";
+  color: #fff; }
+
+
+
+	.s_box{
+		position: absolute;
+		width:300px;
+		height:300px;}
+		.s_box img{
+				width:300px;
+				height: 300px;}
+	
+	
+	
+	.b_box{
+		position: absolute;
+		left: 620px;
+		width:300px;
+		height: 300px;
+		overflow: hidden;
+		display: none;
+		}
+		.b_box img{
+			width: 600px;
+			height: 600px;
+			position: absolute;
+			left: 0;
+			top:0;}
+			
+main article .art-t .art-t-r {
+    margin-left: 400px;
+    width:600px;
+}
+
+
+main article .art-b2  {
+		font:14px/28px "";
+		display: none;}
+	main article .art-b2 p{
+		height:28px;}
+	main article .art-b2 table{
+		height:300px;}
+	main article .art-b2 table td{
+		width:70px;}
+	main article .art-b2 table td.te{
+		width:70px;
+		text-align: right;}
+	main article .art-b2 table input{
+		height:40px;
+		width:500px;}
+		
+		
+main article .art-b3 {
+	font: 14px/34px "";
+	display: none;}
+	main article .art-b3  a{
+		display: inline-block;
+		width:120px;
+		height:34px;
+		background:#F8F9FA;
+		text-align: center;
+		border-radius: 8px;}
+	main article .art-b3 img{
+		margin-top: 30px;}
+		
+	main article .art-b4 {
+		font: 14px/34px "";
+		display: none;}
+		main article .art-b4  a{
+			display: inline-block;
+			width:120px;
+			height:34px;
+			background:#F8F9FA;
+			text-align: center;
+			border-radius: 8px;}
+		main article .art-b4 img{
+			margin-top: 30px;}
